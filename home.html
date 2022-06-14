@@ -1,0 +1,138 @@
+<html>
+<head>
+    <title>Blog | Home</title>
+    <link rel="stylesheet" href="css/home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        // Called on body's `onload` event
+        function init() {
+            // Retrieving the text input's value which was stored into localStorage
+            var pname = localStorage.getItem("pname");
+            document.getElementById("pname").innerHTML = pname;
+            var title = localStorage.getItem("title");
+            document.getElementById("title").innerHTML = title;
+            var date = localStorage.getItem("date");
+            document.getElementById("date").innerHTML = date;
+            var desc = localStorage.getItem("desc");
+            document.getElementById("desc").innerHTML = desc;
+            var head = localStorage.getItem("head");
+            document.getElementById("head").innerHTML = head;
+            var subhead = localStorage.getItem("subhead");
+            document.getElementById("subhead").innerHTML = subhead;
+        }
+    </script>
+</head>    
+
+<body onload="init();">
+    <!-- <div id="pname">To ab iske baad ana chahiye...</div> -->
+    <div class="main">
+        <div class="navbar">
+            <a>Subscribe</a>
+            <span style="font-size: 30px; font-weight: bold; color: black;">Large</span>
+            <span>
+                <i class="fa fa-search"></i>
+                <button>Sign up</button>
+            </span>
+        </div>
+        <hr style="opacity: 0.5;">
+        <div class="subnav">
+            <a>World</a>
+            <a>U.S.</a>
+            <a>Technology</a>
+            <a>Design</a>
+            <a>Culture</a>
+            <a>Buisness</a>
+            <a>Politics</a>
+            <a>Opinion</a>
+            <a>Science</a>
+            <a>Health</a>
+            <a>Style</a>
+            <a>Travel</a>
+        </div>
+
+        <div class="container1">
+            <div>
+                <span>Title of a longer featured blog post</span>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                <a>Continue reading...</a>
+            </div>
+        </div>
+
+        <div class="container2">
+            <span>
+                <div>
+                    <a style="color: blue; font-weight: 700;">World</a>
+                    <h2 style="margin: 0; font-weight: bold;">Featured Post</h2>
+                    <a style="opacity: 0.5;">Nov 12</a>
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                    <a href="">Continue reading</a>
+                </div>
+                <div class="thumbnail">Thumbnail</div>
+            </span>
+            <span>
+                <div>
+                    <a style="color: green; font-weight: 700;">Design</a>
+                    <h2 style="margin: 0; font-weight: bold;">Post title</h2>
+                    <a style="opacity: 0.5;">Nov 11</a>
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                    <a href="">Continue reading</a>
+                </div>
+                <div class="thumbnail">Thumbnail</div>
+            </span>
+        </div>
+
+        <div class="container3">
+            <div>
+                <span class="head">From the Firehose</span>
+                <hr>
+                <h1 id="title" style="margin: 0; font-size: 40px; font-weight: bold;">Blog Title agar ye bada hua to</h1>
+                <a id="date" style="opacity: 0.5;">January 1, 2014</a> by <a id="pname" href="">Mark</a>
+                <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec nam aliquam sem et tortor consequat id. Eu tincidunt tortor aliquam nulla. Consequat nisl vel pretium lectus quam id leo in vitae. Nibh venenatis cras sed felis eget velit aliquet. Consectetur adipiscing elit ut aliquam purus. Et ultrices neque ornare aenean euismod elementum. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque. Consequat nisl vel pretium lectus quam id leo. Cras ornare arcu dui vivamus arcu felis bibendum ut. Vulputate mi sit amet mauris commodo. In nisl nisi scelerisque eu ultrices vitae auctor eu augue. Tincidunt dui ut ornare lectus sit amet est. Nunc mattis enim ut tellus elementum sagittis vitae et leo. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. A pellentesque sit amet porttitor eget dolor. Sit amet risus nullam eget felis.
+                    Ipsum faucibus vitae aliquet nec. A scelerisque purus semper eget duis at tellus at. Egestas purus viverra accumsan in nisl nisi scelerisque. Diam maecenas ultricies mi eget mauris pharetra. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Potenti nullam ac tortor vitae purus faucibus ornare. Eu tincidunt tortor aliquam nulla facilisi. Suspendisse in est ante in nibh mauris. Varius quam quisque id diam vel quam elementum. Gravida dictum fusce ut placerat. Amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Elementum pulvinar etiam non quam. In metus vulputate eu scelerisque. Magna ac placerat vestibulum lectus mauris ultrices eros in cursus. Vitae suscipit tellus mauris a diam. Egestas pretium aenean pharetra magna ac placerat. Justo donec enim diam vulputate ut pharetra sit. Justo nec ultrices dui sapien. Habitant morbi tristique senectus et netus. Velit laoreet id donec ultrices tincidunt arcu non.
+                </p>
+
+                <h1 style="margin: 0; font-size: 35px; font-weight: bold;">Heading</h1>
+                <p id="head">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec nam aliquam sem et tortor consequat id. Eu tincidunt tortor aliquam nulla. Consequat nisl vel pretium lectus quam id leo in vitae. </p>
+            
+                <h1 style="margin: 0; font-size: 30px; font-weight: bold;">Sub Heading</h1>
+                <p id="subhead">Sed nisi lacus sed viverra tellus in hac habitasse platea. Mi sit amet mauris commodo quis. Sed augue lacus viverra vitae. Facilisi nullam vehicula ipsum a arcu. Eu lobortis elementum nibh tellus molestie nunc non. Volutpat sed cras ornare arcu dui vivamus arcu felis. </p>
+
+            </div>
+
+            <div>
+                <div class="about">
+                    <h3 style="margin: 0; margin-bottom: 5;" class="head">About</h3>
+                    <a>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</a>
+                </div>
+                <div class="archives">
+                    <h3 style="margin: 0; margin-bottom: 5;" class="head">Archives</h3>
+                    <a href="">March 2022</a>
+                    <a href="">February 2022</a>
+                    <a href="">January 2022</a>
+                    <a href="">December 2021</a>
+                    <a href="">November 2021</a>
+                    <a href="">October 2021</a>
+                    <a href="">September 2021</a>
+                    <a href="">August 2021</a>
+                    <a href="">July 2021</a>
+                    <a href="">June 2021</a>
+                    <a href="">May 2021</a>
+                    <a href="">April 2021</a>
+                </div>
+                <div class="elsewhere">
+                    <h3 style="margin: 0; margin-bottom: 5;" class="head">Elsewhere</h3>
+                    <a href="">March 2022</a>
+                    <a href="">February 2022</a>
+                    <a href="">January 2022</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Blog template built for <a href="">Agaetis Technology</a> by <a href="https://www.linkedin.com/in/parth-chudasama-20032000/">Parth Chudasama</a></p>
+        <a href="" class="btn">Back to top</a><br><br>
+    </footer>
+</body>
+
+</html>

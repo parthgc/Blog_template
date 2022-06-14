@@ -1,0 +1,152 @@
+*{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+body{
+    margin: 0;
+}
+.main{
+    max-width: 75%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    color: teal;
+}
+.navbar > span > button{
+    cursor: pointer;
+    border: 2px solid teal;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5;
+    margin: 5;
+}
+.subnav{
+    color: teal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.subnav > a{
+    padding: 5px;
+}
+.container1{
+    background-color: rgb(70, 70, 70);
+    height: auto;
+    margin-top: 10;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1 > div {
+    width: 450px;
+}
+.container1 > div > span{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+}
+.container1 > div > p{
+    color: white;
+    letter-spacing: 1px;
+    font-weight:normal;
+}
+.container1 > div > a{
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.container2{
+    height: auto;
+    margin-top: 20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.container2 > span {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 440px;
+    height: auto;
+    border: 1px solid teal;
+    border-radius: 5px;
+    padding: 20;
+    margin: 5px;
+    box-shadow: 0px 0px 2px grey;
+    transition: 0.5s;
+}
+.container2 > span:hover{
+    transition: 0.5s;
+    box-shadow: 0px 10px 15px grey;
+}
+.thumbnail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(70, 70, 70);
+    margin: -20;
+    color: rgb(196, 196, 196);
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.container3{
+    margin-top: 20;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    height: auto;
+}
+.container3 > div{
+    margin: 10px;
+}
+.head{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight:bold;
+    font-size: 25px;
+}
+.container3 > div > p{
+    text-align: justify;
+}
+.about {
+    background-color:aqua;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+.archives,.elsewhere {
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+.archives > a{
+    display: flex;
+    flex-wrap: wrap;
+}
+.elsewhere > a{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    margin: 0;
+}
+.btn{
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}

@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Blog | Form</title>
+    <link rel="stylesheet" href="css/form.css">
+    <script type="text/javascript">
+        function tosubmit() {
+            // Getting the value of text input
+            var pname = document.getElementById("pname").value;
+            var title = document.getElementById("title").value;
+            var date = document.getElementById("date").value;
+            var desc = document.getElementById("desc").value;
+            var head = document.getElementById("head").value;
+            var subhead = document.getElementById("subhead").value;
+            // Storing the value above into localStorage
+            localStorage.setItem("pname", pname);
+            localStorage.setItem("title", title);
+            localStorage.setItem("date", date);
+            localStorage.setItem("desc", desc);
+            localStorage.setItem("head", head);
+            localStorage.setItem("subhead", subhead);
+            return true;
+        }
+    </script> 
+</head>
+<body>
+    <center>
+        <h1>Blog Form</h1>
+        <hr style="width: 20%; margin: 2%; height: 2px; border: none; background-color: grey;">
+        <div class="container">
+            <form name="myform" onsubmit="tosubmit();" method="POST" action="home.html">
+
+                <label for="pname">Publisher Name</label>
+                <input type="text" name="" id="pname">
+
+                <label for="title">Title</label>
+                <input type="text" name="" id="title">
+                
+                <label for="date">Select Todays Date</label>
+                <input type="date" name="" id="date">
+                
+                <label for="desc">Description</label>
+                <textarea name="" id="desc" cols="30" rows="5"></textarea>
+                
+                <label for="head">Heading</label>
+                <input type="text" name="" id="head">
+                
+                <label for="subhead">Sub Heading</label>
+                <input type="text" name="" id="subhead">
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </center>
+</body>
+</html>
